@@ -228,6 +228,102 @@ footer{
 
 }
 
+@media screen and (max-width: 800px){
+    header{  
+       padding: 10px;  
+       margin-left: 0px; 
+    }
+
+
+    .principal {
+       display: flex;
+       margin-top: 11%;
+       margin-left: 20px;
+       min-height: 62vh;
+       flex-direction: column;
+    }
+
+    ul{
+       justify-content: flex-start;
+       gap: 15px;
+       font-size: 23px;
+   }
+
+   .principal h1{
+       font-size: 60px;
+   }
+   .principal p {
+       font-size: 30px;
+   }
+   
+   .botão {
+       width: 350px;
+       padding: 5px 5px;
+       font-size: 30px;
+       margin-top: 20px;
+   }
+
+   .secao{
+       margin-left: 20px;
+   
+   }
+
+   .imagem-projeto{
+       height: 250px;
+       font-size: 30px;
+   }
+
+   .info-projeto{
+       height: 250px;
+       font-size: 30px;
+   }
+   
+   .conteudo-sobre{
+       display: contents;
+    
+   }
+
+
+   .imagem-eu {
+       height: 400px;
+       width: 400px;
+    }
+
+    .titulo-secao {
+        font-size: 40px;
+        margin-bottom: 20px;
+        position: relative;
+        margin-left: 25px;
+        margin-top: 5%;
+    }
+
+    .conteudo-sobre p {
+        font-size: 25px;
+        margin-bottom: 20px;
+        color: #bbb;
+    }
+
+    .sobre {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        max-width: 1300px; 
+    }
+
+    .titulo-secao::after {
+
+        bottom: -9px;
+        
+    }
+
+    .tag-habilidades {
+        font-size: 15px;
+    }
+
+    .footer{
+        padding: 0px;
+        margin: 20px 30%;
+    }
 
 
 
@@ -238,3 +334,4 @@ footer{
 
 
 
+}
