@@ -25,7 +25,7 @@ header{
     padding: 30px;
     margin-left: 60px;
     font-weight: 400;
-    
+    color: #fff;
 }
 
 ul{
@@ -236,6 +236,7 @@ footer{
 a{
     transition: color 0.5s ease-in-out; 
     text-decoration: none;
+    color:#fff;
 }
       
  a:hover {  
