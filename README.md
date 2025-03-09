@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <hr>
 <h1> <a href="https://kawe-rafael.github.io/MEU-PORTFOLIO/">MEU PORTFOLIO</a> </h1>
-
+<img src="https://github.com/user-attachments/assets/ee108184-7ada-4642-8fda-a076c36c268b" width="800px">
 
 
 
