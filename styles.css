@@ -3,14 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    scroll-behavior: smooth;
+        
 }
+
+
 body{
     background-color: #0a0a0a;
     color: #fff;
 }
 
-.seção{
+.secao{
     padding: 100px 0px;
     padding-left: 30px;
 }
@@ -21,6 +24,8 @@ header{
     align-items: center;
     padding: 30px;
     margin-left: 60px;
+    font-weight: 400;
+    
 }
 
 ul{
@@ -51,9 +56,9 @@ ul{
 }
 
 .principal p{
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 20px;
-    max-width: 500px;
+    max-width: 800px;
     color: #bbb;
     margin-bottom: 20px;
 }
@@ -125,6 +130,7 @@ ul{
  .info-projeto{
     color: #329aac;
     font-weight: 500;
+    padding: 0;
  }
 
  .sobre{
@@ -208,6 +214,7 @@ footer{
 .efeito-cursor{
     cursor: pointer;
     transition: transform 0.4s ease-in-out;
+    color: #fff;
 }
 .efeito-cursor:hover{
     transform: translateY(-8px);
@@ -224,8 +231,23 @@ footer{
     background-color:rgba(58, 155, 190, 0.5);
     z-index: 99;
     transform: translate(-50%, -50%);
+}
 
+a{
+    transition: color 0.5s ease-in-out; 
+    text-decoration: none;
+}
+      
+ a:hover {  
+    color: #24707d !important; 
+}
+a:visited {
+    color: #fff; 
+    }
 
+.link-projeto{
+    display: flex;
+    margin: 10% 0 10% 20px;
 }
 
 @media screen and (max-width: 800px){
@@ -265,11 +287,11 @@ footer{
 
    .secao{
        margin-left: 20px;
-   
+       padding: 0;
    }
 
    .imagem-projeto{
-       height: 250px;
+       height: 220px;
        font-size: 30px;
    }
 
@@ -285,7 +307,7 @@ footer{
 
 
    .imagem-eu {
-       height: 400px;
+       height: auto;
        width: 400px;
     }
 
@@ -320,10 +342,13 @@ footer{
         font-size: 15px;
     }
 
-    .footer{
+    footer{
         padding: 0px;
-        margin: 20px 30%;
+        margin: 30px 25%;
     }
+
+    .link-projeto{
+        display: none;}
 
 
 
